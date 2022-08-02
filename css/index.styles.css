@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#recipe-controller {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#recipe {
+    margin-top: 10px;
+    max-width: 1000px;
+}
+
+#instructions {
+    text-align: justify;
+}
+
+#first-row {
+    display: flex;
+    flex-direction: row;
+}
+
+#first-row img {
+    width: 50%;
+}
+
+#first-row div {
+    margin: 5px 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
